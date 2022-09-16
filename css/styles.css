@@ -31,7 +31,7 @@ body {
 }
 
 .logo-and-odin {
-	height: 140px;
+	height: 170px;
 	width: auto;
 	background-color: rgba(0, 0, 0, 0.5);
 	display: flex;
@@ -43,7 +43,7 @@ body {
 .logo {
 	width: 100px;
 	height: 120px;
-	padding-top: 8px;
+	padding-top: 30px;
 }
 
 @font-face {
@@ -53,14 +53,14 @@ body {
 
 .odin {
 	color: white;
-	font-family: "../font/sh-font.otf";
-	font-weight: ;
+	font: ../font/sh-font.otf;
+	font-family: Norse-Bold;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 20px;
+	padding-top: 0px;
 	padding-left: 0;
-	font-size: 45px;
+	font-size: 85px; 
 }
 
 .sub-container-link {
@@ -73,7 +73,7 @@ body {
 
 #sub-container-link {
 	color:  white;
-	padding-top: 635px;
+	padding-top: 615px;
 	font-size: 12px;
 }
 
