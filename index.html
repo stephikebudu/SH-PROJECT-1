@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Project - Sign Up Form</title>
+		<link rel="stylesheet" href="../css/styles.css" />
+	</head>
+	<body>
+		<div id="main-container">
+			<div class="sub-container-1">
+				<div class="empty-block"></div>
+				<div class="logo-and-odin">
+					<div class="logo-block">
+						<img class="logo" src="../image/sh-logo.png" alt="odin logo" />
+					</div>	
+
+					<div class="odin-block">
+						<h1 class="odin">ODIN</h1>
+					</div>		
+				</div>
+				
+				<div class="sub-container-link"> 
+					<h6 id="sub-container-link">Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></h6>
+				</div>	
+			</div>
+			
+			<div class="sub-container-2">
+				<div class="section-1">
+					<p class="section-1-paragraph"><b>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</b></p>
+					<p class="section-1-paragraph"><b>Sign up <i>now</i> to get started.</b></p>
+					<br/>
+					<p class="section-1-paragraph-3"><b>You <i>know</i> you want to.</b></p>
+				</div>
+				
+				<div class="section-2">
+					<!--<div class="form title"></div>-->
+					<form>
+						<div class="form-header">
+							<h3><b>Let's do this!</b></h3>
+						</div>
+
+						<div class="form">
+							<div class="form-list-1">
+								<!--<h3><b>Let's do this!</b></h3>-->
+								<label class="flex-item" for="first-name">First Name <input class="form-input" id="first-name" name="first-name" type="text" placeholder="Enter your first name" /></label>
+								<label class="flex-item" for="email">Email <input class="form-input" id="email" name="email" type="email" placeholder="Enter your email" /></label>
+								<label class="flex-item" for="password">Password <input class="form-input" id="password" name="password" type="password" required placeholder="Enter your password" error /></label>
+							</div>
+
+							<div class="form-list-2">
+								<label class="flex-item" for="last-name">Last Name <input class="form-input" id="last-name" name="last-name" type="text" placeholder="Enter your last name" /></label>
+								<label class="flex-item" for="phone-number">Phone Number <input class="form-input" id="phone-number" name="phone-number" type="tel" placeholder="Enter your phone number" error /></label>
+								<label class="flex-item" for="confirm-password">Confirm Password <input class="form-input" id="confirm-password" name="confirm-password" type="password" required placeholder="Confirm your password" /></label>
+							</div>	
+						</div>
+					</form>
+				</div>
+				<div class="section-3">
+					<div id="submit-button"><form>
+					<input id="submit-button-input" type="submit" value="Create Account" />
+					</form></div>
+					<div><p class="section-3-paragraph"><b>Already have an account? <span class="log-in">Log in</span></b></p></div>
+				</div>
+			</div>		
+		</div>	
+	</body>
+</html>
