@@ -46,9 +46,14 @@ body {
 	padding-top: 8px;
 }
 
+@font-face {
+	font-family: Norse-Bold;
+	src: url("../font/sh-font.otf");
+}
+
 .odin {
 	color: white;
-	font-family: /* font link is https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf" */, sans-serif;
+	font-family: "../font/sh-font.otf";
 	font-weight: ;
 	display: flex;
 	justify-content: center;
@@ -61,12 +66,15 @@ body {
 .sub-container-link {
 	height: 665px;
 	position: end;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #sub-container-link {
 	color:  white;
-	height: 665px;
-	align-items: end;
+	padding-top: 635px;
+	font-size: 12px;
 }
 
 a {
